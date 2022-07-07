@@ -4,9 +4,9 @@ body{
 .square-box {
     max-width:600px;
     min-height: 300px;
-    border: 6px solid black;
     width: 100%;
-    border-radius: 5%;
+    border-radius: 4%;
+    background-color: white;
 }
 
 #new-quote-btn {
@@ -23,3 +23,9 @@ body{
     z-index: 1; /* This ensures other elements don't display over the navbar */
     -webkit-animation: moveNav 3s; /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
 }
+
+#twitter-symbol {
+    position:relative;
+    right: 5%;
+    top: 220px;
+ }
