@@ -11,7 +11,7 @@ body{
 
 #new-quote-btn {
    position:relative;
-   left: 75%;
+   left: 65%;
    top: 220px;
 }
 
@@ -26,6 +26,6 @@ body{
 
 #twitter-symbol {
     position:relative;
-    right: 5%;
+    right: 10%;
     top: 220px;
  }
