@@ -1,3 +1,4 @@
+                        // Generate a random quote from array 
 // this var will access our button when we click on it
 let btn = document.getElementById('new-quote-btn');
 // also we need an output 
@@ -18,3 +19,8 @@ btn.addEventListener('click', function() {
     let randomQuote = quote[Math.floor(Math.random() *quote.length)]  // we assigning var randomquote the value of quote
     output.innerHTML = randomQuote;  // this is the output where the random quote from our array will be shown
 });
+
+
+                        // End generate random quote from array 
+
+                        // Background color generator 
