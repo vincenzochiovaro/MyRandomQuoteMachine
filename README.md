@@ -1,5 +1,6 @@
-WORK IN PROGRESS. . . . . . !!
-Hi Guys! This is going to be my super quote machine! where you will find many many coool "quotes" selected by me! I am going to use a mix of HTML,JS,CSS and, BOOTSTRAP5 to complete this project!
+
+This is a OnePage site where you can get some random quotes!
+ it was created with Html and customized with Css and Bootstrap5. Then with JavaScript I created two functions that allow me every time I click the "New Quote" button to generate a different background color and select a random quote from the array I created.
 
 
-https://vincenzochiovaro.github.io/MyRandomQuoteMachine/
+Uploaded on GitHub Pages: https://vincenzochiovaro.github.io/MyRandomQuoteMachine/
