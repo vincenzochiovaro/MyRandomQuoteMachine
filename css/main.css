@@ -29,3 +29,18 @@ body{
     right: 17%;
     top: 220px;
  }
+ #btnsignup{
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 10px;
+ }
+ #btnlogin{
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 10px;
+ }
+ #btncontactme{
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 10px;
+ }
