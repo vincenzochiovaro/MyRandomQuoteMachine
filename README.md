@@ -10,7 +10,7 @@ My Next step is to make all the buttons working,
 
 for example: 
 
-Create a Dropdown button where you can see all my projects.  <!-- Work In Progress -->
+Create a Dropdown button where you can see all my projects. --- Ongoing
 
 
 Once you click Log In will Pop out a Form where you can interact with it same for the SignUp.
