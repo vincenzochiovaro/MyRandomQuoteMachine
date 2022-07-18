@@ -50,12 +50,78 @@
 
                                                                  
                         <button class="btn btn-secondary " type="button" style="width:150px" id="btncontactme">Contact Me</button>
-                        <button class="btn btn-secondary " type="button" id="btnsignup">Sign Up </button>
-                        <button class="btn btn-secondary " type="button" id="btnlogin">Log In </button>   
+                        <button class="btn btn-secondary " data-bs-toggle="modal" type="button" data-bs-target="#signup" id="btnsignup">Sign Up </button>
+                        <button class="btn btn-secondary " data-bs-toggle="modal" type="button" data-bs-target="#login"type="button" id="btnlogin">Log In </button>   
                         
                     </div>
             </div>
         </nav>
+
+        <!-- MODAL SIGN UP BOOTSTRAP5  -->
+
+        <div class="modal" tabindex="-1" id="signup">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Sign Up</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                                                  <!-- form inside the modal  -->
+                        <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Username</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E.g  VincenzoChiovaro">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="E.g Example123!">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                                                        <!-- end form inside modal  -->
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        <!-- END MODAL SIGN UP BOOTSTRAP 5 -->
+
+        <!-- MODAL LOG IN  -->
+        
+        <div class="modal" tabindex="-1" id="login">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Log In</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                                                  <!-- form inside the modal  -->
+                        <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Username</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Username">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Your Password">
+                              </div>
+                                                        <!-- end form inside modal  -->
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Log In</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- END MODAL LOG IN  -->
          
         <!-- END NAVBAR -->
         
