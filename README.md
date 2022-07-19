@@ -13,7 +13,7 @@ for example:
 Create a Dropdown button where you can see all my projects. --- Ongoing
 
 
-Once you click Log In will Pop out a Form where you can interact with it same for the SignUp.
+Once you click Log In will Pop out a Form where you can interact with it same for the SignUp. --- Done
 
 
 Contact Me page will give you all the information about me.
