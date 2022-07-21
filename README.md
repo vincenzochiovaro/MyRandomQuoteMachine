@@ -5,6 +5,4 @@ Uploaded on GitHub Pages: https://vincenzochiovaro.github.io/MyRandomQuoteMachin
 
 My Next step:
 
-Create a Dropdown button where you can see all my projects. --- Ongoing
-
-Once you click the twitter button you will be directed on your twitter account to share the quote
+Once you click the twitter button you will be directed on your twitter account to share the quote --- Ongoing
